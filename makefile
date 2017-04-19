@@ -1,5 +1,5 @@
 CC = g++
-FLAGS = -fopenmp -std=c++11 -Wall -Wextra
+FLAGS = -fopenmp -Wall -Wextra
 
 hello_world:
 	$(CC) $(FLAGS) basic/hello_world.cpp
